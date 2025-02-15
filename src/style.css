@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%; /* Image takes full width of the header */
+  height: auto; /* Maintain aspect ratio */
+  overflow: hidden; /* Hide any overflowing image content */
+}
+
+header img {
+  width: 100%; /* Image takes full width of the header */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Prevents a small gap below the image */
+  object-fit: cover; /* or contain, depending on how you want to scale */
+  alt: "Header Image"; /* Add descriptive alt text */
+}
+
+nav {
+  text-align: center;
+  background-color: #a83e8e;
+}
+
+nav a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+section {
+  padding: 20px;
+  margin: 10px;
+}
+
+#home {
+  background-color: rgb(211, 176, 218);
+  justify-content: center;
+  height: 50vh;
+  text-align: center;
+}
+
+#contact {
+  background-color: rgb(211, 176, 218);
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+#about {
+  background-color: rgb(241, 241, 241);
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}

@@ -1,10 +1,17 @@
-import "./styles.css";
+import HomeSection from "./home.js";
+import AboutSection from "./about.js";
+import Contact from "./contact.js";
+import " ./style.css";
 
-export default function App() {
+function App() {
   return (
-    <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
+    <div>
+      <Navbar />
+      <HomeSection />
+      <AboutSection />
+      <Contact />
     </div>
   );
 }
+
+export default App;
